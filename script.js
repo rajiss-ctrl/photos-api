@@ -16,10 +16,9 @@ function req1() {
       
     
       
-     document.querySelector(".photo_api").innerHTML = output;
-      // document.getElementById("printBody").innerHTML = body;
+    document.querySelector(".photo_api").innerHTML = output;
+    
     });
 }
 
 req1();
-
